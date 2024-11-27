@@ -1,0 +1,9 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - "**/*.g.dart" # Exclui arquivos gerados automaticamente, caso existam
+
+linter:
+  rules:
+    - avoid_print # Exemplo de regra adicional (opcional)
